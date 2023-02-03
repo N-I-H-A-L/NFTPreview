@@ -1,0 +1,142 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif; 
+    padding: 22px;
+    width: 300px;
+    height: 550px;
+    border-radius: 15px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2, .name{
+    color: white;
+}
+
+h2:hover{
+    cursor: pointer;
+    color:hsl(178, 100%, 50%);
+}
+
+.cost{
+    display: inline-block;
+    color: hsl(178, 100%, 50%);
+    padding-bottom: 10px;
+    margin-right: 110px;
+}
+
+.eth{
+    position: relative;
+    margin-right: 3px;
+    top: 3px;
+}
+
+.clock{
+    position: relative;
+    margin-right: 3px;
+    top: 3px;
+}
+
+.desc{
+    display: block;
+    margin-bottom: 10px;
+    line-height: 150%;
+    font-size: 18px;
+}
+
+.avatar{
+    position: relative;;
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 15px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.name{
+    color: white;
+}
+
+.name:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.owner{
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+}
+
+.view-icon{
+    position: absolute;
+    top: 27%;
+    left: 43%;
+    visibility: hidden;
+}
+
+.NFT_img{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    position: relative;
+    /* left: 12px; */
+}
+
+/* When I will hover on the '.image' then, apply these styles to .NFT_img */
+.image:hover .NFT_img{
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+/* When I will hover on the '.image' then, apply these styles to .view_icon */
+.image:hover .view-icon{
+    visibility: visible;
+    cursor: pointer;
+}
+
+hr{
+    color: hsl(215, 32%, 27%);
+}
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%) //For inside text 
+- Cyan: hsl(178, 100%, 50%) //for 0.041 ETH
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600 */
